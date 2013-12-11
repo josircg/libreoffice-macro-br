@@ -1,3 +1,24 @@
+rem
+rem Função Numero: remove caracteres não numéricos para converter uma string em um número
+rem
+
+function Numero( Origem as String ) as String
+  
+  Ind = 1
+  Numero = ""
+  while Ind <= len( Origem )
+     char = Mid( Origem, Ind, 1 )
+     if char <> "," and char <> "'" then
+'        if char = "." then
+'           char = ","
+'        end if
+        Numero = Numero + char
+     end if
+     Ind = Ind + 1
+  wend
+  
+End function
+
 Sub LimpaITAU
 
 rem O que faz a rotina: Limpa um extrato enviado pelo ITAU em formato XLSX

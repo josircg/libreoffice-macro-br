@@ -33,10 +33,17 @@ Relação inicial de Macros:
 
 * Conversão do Extrato do Itau: o extrato do Itau inclui linhas de saldo intermediários, logos e colunas extras que dificultam a geração de um arquivo limpo que tenha apenas transações. O objetivo da macro é gerar uma planilha com apenas 3 colunas.
 
-Data / Descrição / Valor
+    Data / Descrição / Valor
 
-Nesta macro, você aprende como remover linhas e
+Nesta macro, você aprende:
 
-Sempre que tiver tempo adicionarei novas macros.
+* como remover linhas e colunas
+* navegar pelo conteúdo da planilha
+* analisar o conteúdo de uma célula
+* transformar números do formato americano para o formato brasileiro
 
-E obviamente contribuições são bemvindas!
+Sugestões e Contribuições 
+--------------
+
+Obviamente todas as contribuições são bemvindas: Se você tiver macros que queira adicionar nesse repositório, entre em contato que eu adicionarei seu nome como colaborador ou se você não tiver o hábito de utilizar o github, envie a macro por email mesmo que eu adiciono para você.
+
