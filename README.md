@@ -31,9 +31,9 @@ Nesse ponto, você deve escolher se quer inserir a macro para que possa ser util
 Relação inicial de Macros:
 ---------------------------------------------
 
-* Conversão do Extrato do Itau: o extrato do Itau inclui linhas de saldo intermediários, logos e colunas extras que dificultam a geração de um arquivo limpo que tenha apenas transações. O objetivo da macro é gerar uma planilha com apenas 3 colunas.
+''Conversão do Extrato do Itau'': quando se faz o download do extrato do Itau, o arquivo vem com linhas de saldo intermediários, o sinal negativo vem uma coluna separada e existem colunas extras que dificultam a geração de um arquivo limpo que tenha apenas as transações bancárias. O objetivo da macro é gerar uma planilha com apenas 3 colunas.
 
-    Data / Descrição / Valor
+	Data / Descrição / Valor
 
 Nesta macro, você aprende:
 
